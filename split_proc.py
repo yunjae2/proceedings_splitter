@@ -36,8 +36,6 @@ def extract_level_info(proc_file, bm_level):
 
         lineno += 4
 
-
-
     return meta
 
 
