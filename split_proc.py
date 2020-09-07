@@ -46,7 +46,7 @@ def split_proc(proc_file, meta):
         else:
             end = ""
 
-        os.system(f"pdftk {proc_file} cat {start}-{end} output test-{title}.pdf")
+        os.system(f"pdftk {proc_file} cat {start}-{end} output {title}.pdf")
 
 
 def main():
